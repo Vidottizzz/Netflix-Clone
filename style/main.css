@@ -21,22 +21,23 @@ header .container{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    font-size: 18px;
 
 }
 
 header .logo{
     margin-left: 5px;
-    color: var(--vermelho);
+    color: #5c0ba8;
     font-family: 'Arial Black', Times;
     font-size: 40px;
 }
 header nav a{
     text-decoration: none;
     color: #AAA;
-    margin-right: 10px;
+    margin-right: 13px;
 }
 header nav a:hover{
-    color:#fff;
+    color:rgb(156, 107, 85);
 }
 
 /*filme principal*/
@@ -71,8 +72,26 @@ header nav a:hover{
     font-size: 12px;
 
     cursor: pointer;
+    transition: 0.8s ease all;
  }
  .botao:hover{
      background-color: white;
      color: black;
  }
+ .botao i{
+    margin-right: 10px;
+ }
+ .filme-principal .container{
+     width: 70%;
+     margin-left: 30px;
+     margin-bottom: 100px;
+ }
+
+ .box-filme{
+    height: 100%;
+    width: 100%;
+    display: block
+}
+.item{
+   margin-top: 10px;
+}
