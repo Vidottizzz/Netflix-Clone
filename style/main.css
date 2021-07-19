@@ -12,7 +12,7 @@
 /*elementos base*/
 body{
     background: var(--preta);
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Arial', Times, serif;
     color:white;
 }
 header .container{
@@ -20,33 +20,34 @@ header .container{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    font-size: 18px;
 }
 
 header .logo{
     margin-left: 5px;
-    margin-right: 18px;
+
     color: #5c0ba8;
     font-family: 'Arial Black', Times;
     font-size: 40px;
 }
 
-#txtBusca{
-    margin-right: 15px;
-    border-radius: 3px;
-    padding: 2px;
-}
+
 #menu{
-    margin-left: 10%;
+    margin-right: 10px;
+}
+header nav a {
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 15px;
+    transition: 0.2s;
 }
 
-a{
-    margin-left: 25px;
+header nav a:hover{
+    color: #5c0ba8;
 }
-
 
 /*filme principal*/
 .filme-principal{
+    padding-top: 50px;
     font-size: 16px;
     background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%) ,url('../img/contatos4.jpg');
 
@@ -57,8 +58,10 @@ a{
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+
 }
 .filme-principal .descricao{
+    font-size: 15px;
     margin-top: 10px;
     margin-bottom: 40px;
 }
@@ -99,4 +102,10 @@ a{
 }
 .item{
    margin-top: 10px;
+}
+.botoes{
+    margin-bottom: 30px;
+}
+.carrosel-filmes{
+    margin-top: 5px;
 }
