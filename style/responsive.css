@@ -16,3 +16,9 @@
         width: 50%;
     }
 }   
+@media screen and (max-width: 600px){
+   .filme-principal{
+       height: 100%;
+   }
+
+}
